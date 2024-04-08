@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "838f369c8c8229d7a82908010142d978",
+    "content-hash": "f3d096cc84b281e979ca594918d48121",
     "packages": [
         {
             "name": "composer/semver",
@@ -7549,6 +7549,52 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "geekabel/symfony-strapi",
+            "version": "0.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geekabel/symfony-strapi.git",
+                "reference": "44b70cdb0ab72c81b7a8835e67d87aee4a0f2df9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geekabel/symfony-strapi/zipball/44b70cdb0ab72c81b7a8835e67d87aee4a0f2df9",
+                "reference": "44b70cdb0ab72c81b7a8835e67d87aee4a0f2df9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "symfony/framework-bundle": "^7.0",
+                "symfony/http-client": "^7.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Geekabel\\SymfonyStrapi\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Geekabel\\SymfonyStrapi\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Godwin K.",
+                    "email": "koffigodwin96@gmail.com"
+                }
+            ],
+            "description": "Strapi wrapper symfony",
+            "support": {
+                "source": "https://github.com/geekabel/symfony-strapi/tree/0.1.10",
+                "issues": "https://github.com/geekabel/symfony-strapi/issues"
+            },
+            "time": "2024-01-26T17:10:46+00:00"
+        },
         {
             "name": "masterminds/html5",
             "version": "2.8.1",

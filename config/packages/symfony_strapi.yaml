@@ -1,0 +1,7 @@
+symfony_strapi:
+  api_url: ''
+  api_key: ''
+  authentication:
+    enabled: false
+    username: ''
+    password: ''

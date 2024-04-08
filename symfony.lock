@@ -26,6 +26,9 @@
             "migrations/.gitignore"
         ]
     },
+    "geekabel/symfony-strapi": {
+        "version": "0.1.10"
+    },
     "phpunit/phpunit": {
         "version": "9.6",
         "recipe": {
