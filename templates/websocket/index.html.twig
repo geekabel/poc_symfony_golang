@@ -24,7 +24,7 @@
         };
         
         socket.onmessage = function(event) {
-            console.log("Received message:", event.data);
+            console.log("Received message:", event.data,event);
                 // Display received message on the page
             appendMessage(event.data);
         };
